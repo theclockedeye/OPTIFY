@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:title="UNIT CONVERTER"
+        android:textSize="24sp"
+        />
+
+    <!-- ScrollView to contain buttons -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Button 1 -->
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="32dp"
+                android:fontFamily="sans-serif-medium"
+                android:onClick="startLengthActivity"
+                android:text="@string/length"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"
+                android:backgroundTint="@color/light_grey"
+                android:shadowRadius="10"
+                android:elevation="20dp"
+
+            />
+
+            <!-- Button 2 -->
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:onClick="startWeightActivity"
+                android:text="@string/weight"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"
+                android:backgroundTint="@color/light_grey"
+                android:shadowRadius="10"
+                android:elevation="20dp" />
+
+            <!-- Button 3 -->
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:onClick="startVolumeActivity"
+                android:text="@string/volume"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"
+                android:backgroundTint="@color/light_grey"
+                android:shadowRadius="10"
+                android:elevation="20dp" />
+
+            <!-- Button 4 -->
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:onClick="startTemperatureActivity"
+                android:text="@string/temperature"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"
+                android:backgroundTint="@color/light_grey"
+                android:shadowRadius="10"
+                android:elevation="20dp" />
+
+            <!-- Button 5 -->
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:onClick="startTimeActivity"
+                android:text="@string/time"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"
+                android:backgroundTint="@color/light_grey"
+                android:shadowRadius="10"
+                android:elevation="20dp" />
+
+            <!-- Button 6 -->
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:onClick="startAreaActivity"
+                android:text="@string/area"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"
+                android:backgroundTint="@color/light_grey"
+                android:shadowRadius="10"
+                android:elevation="20dp" />
+
+            <!-- Button 7 -->
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:onClick="startSpeedActivity"
+                android:text="@string/speed"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"
+                android:backgroundTint="@color/light_grey"
+                android:shadowRadius="10"
+                android:elevation="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
