@@ -1,0 +1,18 @@
+<resources>
+    <!-- Dark theme for STOPWATCH -->
+    <style name="Theme.STOPWATCH" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary theme colors -->
+        <item name="colorPrimary">#121212</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary theme colors -->
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Background and text colors -->
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+</resources>

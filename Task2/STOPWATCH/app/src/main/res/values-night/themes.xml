@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme for Dark Mode -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your dark theme colors -->
+        <item name="colorPrimary">#121212</item> <!-- Dark background -->
+        <item name="colorPrimaryDark">#1F1F1F</item>
+        <item name="colorAccent">#FFA500</item> <!-- Orange accent color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White text color -->
+        <item name="android:background">#121212</item> <!-- Dark background color -->
+        <item name="android:buttonStyle">@style/CustomButtonDark</item>
+    </style>
+
+    <!-- Dark theme button style -->
+    <style name="CustomButtonDark" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">#FFA500</item> <!-- Orange button color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White text on buttons -->
+    </style>
+</resources>

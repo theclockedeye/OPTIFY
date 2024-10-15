@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme for Light Mode -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme colors -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#EEEEEE</item>
+        <item name="colorAccent">#FFA500</item> <!-- Orange accent color -->
+        <item name="android:textColor">#000000</item> <!-- Black text color -->
+        <item name="android:background">#FFFFFF</item> <!-- White background -->
+        <item name="android:buttonStyle">@style/CustomButtonLight</item>
+    </style>
+
+    <!-- Light theme button style -->
+    <style name="CustomButtonLight" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">#FFA500</item> <!-- Orange button color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White text on buttons -->
+    </style>
+</resources>
