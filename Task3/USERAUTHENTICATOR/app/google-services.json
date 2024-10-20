@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "76657476921",
+    "project_id": "user-authenticator-ea691",
+    "storage_bucket": "user-authenticator-ea691.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76657476921:android:2697c7609127da6e1ad4e8",
+        "android_client_info": {
+          "package_name": "com.arun.userauthenticator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvonfb4Rzwzarwxn3MhqzRAnvI6hPzymc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
