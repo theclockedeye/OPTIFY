@@ -49,17 +49,6 @@
    cd optify
    ```
 
-3. **Install frontend dependencies:**
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-4. **Install backend dependencies:**
-   ```bash
-   cd ../backend
-   pip install -r requirements.txt
-   ```
 
 
 
