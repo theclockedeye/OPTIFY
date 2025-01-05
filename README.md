@@ -5,51 +5,36 @@
 
 ## 📋 Tasks Assigned
 
-1. **Task 1: [Task Title]**
-   - *Description:* Brief description of Task 1.
-   - *Technologies Used:* List of technologies or tools used.
+1. **Task 1: Unit Converter**
+   - *Description:* Developed an Android app for Unit Conversion.
+   - *Technologies Used:*  AndroidStudio, Java,XML
 
 2. **Task 2: Stopwatch**
    - *Description:* Developed a stopwatch application with start, stop, and reset functionalities.
-   - *Technologies Used:* JavaScript, React.
+   - *Technologies Used:*AndroidStudio, Java,XML.
 
 3. **Task 3: User Authenticator**
    - *Description:* Implemented user authentication features including login, registration, and password recovery.
-   - *Technologies Used:* Python, Django, JWT.
+   - *Technologies Used:* AndroidStudio, Java,Firebase,XML.
 
-4. **Task 4: [Additional Task]**
-   - *Description:* Brief description of Task 4.
-   - *Technologies Used:* List of technologies or tools used.
+4
 
 ## 🚀 Technologies & Tools
 
-- **Frontend:** React, JavaScript, HTML, CSS
-- **Backend:** ASP.NET Core, Python, Django
-- **Databases:** SQL Server, MongoDB
+- **Frontend:** androidStuio, Java,XML
+- **Backend:** Firebase(for task 3)
+- **Databases:** None
 - **Version Control:** Git, GitHub
-- **Other Tools:** Docker, Postman, Visual Studio Code
+- **Other Tools:** Firebase
 
-## 📂 Project Structure
-
-```
-optify/
-├── frontend/
-│   ├── src/
-│   └── public/
-├── backend/
-│   ├── src/
-│   └── tests/
-├── README.md
-└── LICENSE
-```
 
 ## 🛠️ Getting Started
 
 ### Prerequisites
 
-- Node.js
-- Python 3.x
-- ASP.NET Core SDK
+- Android Studio
+- Java
+- XML
 - Git
 
 ### Installation
@@ -76,11 +61,9 @@ optify/
    pip install -r requirements.txt
    ```
 
-## 📈 Features
 
-- **Stopwatch Application:** A responsive stopwatch with essential controls.
-- **User Authentication:** Secure user login and registration system.
-- **[Additional Feature]:** Description of another feature.
+
+
 
 ## 📝 Contributing
 
@@ -91,5 +74,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 For any inquiries, please reach out to [arungeorge034@gmail.com](mailto:arungeorge034@gmail.com).
 
 ---
-
-Feel free to customize the sections with more specific details related to your tasks and project features. This structure ensures clarity and provides a comprehensive overview of your repository for anyone who visits it.
